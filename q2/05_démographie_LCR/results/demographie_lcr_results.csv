@@ -1,0 +1,11 @@
+combination,n,n_pos,n_features,model,metric,mean,std
+demographics+lcr,100,50,8,logreg,AUROC,0.7656000000000001,0.08770594810691766
+demographics+lcr,100,50,8,logreg,AUPRC,0.7477615399736142,0.07734371355337573
+demographics+lcr,100,50,8,logreg,Sensibilite,0.8119999999999998,0.12688577540449522
+demographics+lcr,100,50,8,logreg,Specificite,0.6679999999999999,0.11803954139750518
+demographics+lcr,100,50,8,logreg,F1,0.7552162841421154,0.08380556867767021
+demographics+lcr,100,50,8,random_forest,AUROC,0.746,0.09548123724935002
+demographics+lcr,100,50,8,random_forest,AUPRC,0.7117732161199654,0.10394757713195954
+demographics+lcr,100,50,8,random_forest,Sensibilite,0.7759999999999999,0.13
+demographics+lcr,100,50,8,random_forest,Specificite,0.6839999999999999,0.12476644848141936
+demographics+lcr,100,50,8,random_forest,F1,0.7387767178156195,0.08569625519046176

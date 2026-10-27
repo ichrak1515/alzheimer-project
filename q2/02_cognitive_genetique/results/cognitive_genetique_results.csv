@@ -1,0 +1,11 @@
+combination,n,n_pos,n_features,model,metric,mean,std
+cognitive+genetic,100,50,6,logreg,AUROC,0.8164,0.08934390484713177
+cognitive+genetic,100,50,6,logreg,AUPRC,0.8016927560571523,0.11017618680431589
+cognitive+genetic,100,50,6,logreg,Sensibilite,0.6999999999999998,0.18027756377319948
+cognitive+genetic,100,50,6,logreg,Specificite,0.8160000000000001,0.14047538337136986
+cognitive+genetic,100,50,6,logreg,F1,0.73293334203524,0.12055009801496037
+cognitive+genetic,100,50,6,random_forest,AUROC,0.8264000000000001,0.08420609637470833
+cognitive+genetic,100,50,6,random_forest,AUPRC,0.8191548102224572,0.09150390167746526
+cognitive+genetic,100,50,6,random_forest,Sensibilite,0.7679999999999998,0.1405939780597543
+cognitive+genetic,100,50,6,random_forest,Specificite,0.7759999999999999,0.13
+cognitive+genetic,100,50,6,random_forest,F1,0.767884293388668,0.10091678170934171

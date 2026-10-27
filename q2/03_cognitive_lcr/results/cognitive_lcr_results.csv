@@ -1,0 +1,11 @@
+combination,n,n_pos,n_features,model,metric,mean,std
+cognitive+lcr,100,50,9,logreg,AUROC,0.8212,0.10752209075348187
+cognitive+lcr,100,50,9,logreg,AUPRC,0.783018142641672,0.11889594870873421
+cognitive+lcr,100,50,9,logreg,Sensibilite,0.828,0.14583095236151572
+cognitive+lcr,100,50,9,logreg,Specificite,0.752,0.12948616399703355
+cognitive+lcr,100,50,9,logreg,F1,0.7944795403217801,0.10948571605375126
+cognitive+lcr,100,50,9,random_forest,AUROC,0.8728,0.0775951029382654
+cognitive+lcr,100,50,9,random_forest,AUPRC,0.8655139818901426,0.09131436168115292
+cognitive+lcr,100,50,9,random_forest,Sensibilite,0.8400000000000002,0.11180339887498948
+cognitive+lcr,100,50,9,random_forest,Specificite,0.8039999999999999,0.10598742063723099
+cognitive+lcr,100,50,9,random_forest,F1,0.8233900449022268,0.0771146396808658

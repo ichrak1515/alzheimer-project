@@ -1,0 +1,51 @@
+experience,modalites,model,metric,mean,std,n_patients,n_variables
+complet,cognition + demographie + genetique + lcr,logreg,AUROC,0.804,0.09836157786453,100,14
+complet,cognition + demographie + genetique + lcr,logreg,AUPRC,0.785183334106554,0.112480752087653,100,14
+complet,cognition + demographie + genetique + lcr,logreg,Sensibilite,0.7719999999999999,0.1307669683062202,100,14
+complet,cognition + demographie + genetique + lcr,logreg,Specificite,0.752,0.13266499161421602,100,14
+complet,cognition + demographie + genetique + lcr,logreg,F1,0.7622481605082224,0.09809964944450104,100,14
+complet,cognition + demographie + genetique + lcr,random_forest,AUROC,0.8524,0.07412152184082571,100,14
+complet,cognition + demographie + genetique + lcr,random_forest,AUPRC,0.8405803669326889,0.088989352543853,100,14
+complet,cognition + demographie + genetique + lcr,random_forest,Sensibilite,0.8240000000000001,0.12000000000000001,100,14
+complet,cognition + demographie + genetique + lcr,random_forest,Specificite,0.7559999999999999,0.12609520212918493,100,14
+complet,cognition + demographie + genetique + lcr,random_forest,F1,0.7953597914028657,0.08322428862299174,100,14
+sans_cognition,demographie + genetique + lcr,logreg,AUROC,0.758,0.0986154146165801,100,10
+sans_cognition,demographie + genetique + lcr,logreg,AUPRC,0.7602641986668303,0.09116215980501549,100,10
+sans_cognition,demographie + genetique + lcr,logreg,Sensibilite,0.7919999999999999,0.1255653880122491,100,10
+sans_cognition,demographie + genetique + lcr,logreg,Specificite,0.6679999999999999,0.12151817422372124,100,10
+sans_cognition,demographie + genetique + lcr,logreg,F1,0.7441133400035,0.09019131653862522,100,10
+sans_cognition,demographie + genetique + lcr,random_forest,AUROC,0.7447999999999999,0.10239303361720137,100,10
+sans_cognition,demographie + genetique + lcr,random_forest,AUPRC,0.7168222285454484,0.10940235305984333,100,10
+sans_cognition,demographie + genetique + lcr,random_forest,Sensibilite,0.768,0.13140268896284685,100,10
+sans_cognition,demographie + genetique + lcr,random_forest,Specificite,0.6639999999999999,0.14106735979665885,100,10
+sans_cognition,demographie + genetique + lcr,random_forest,F1,0.7275310389196511,0.08492879000821207,100,10
+sans_demographie,cognition + genetique + lcr,logreg,AUROC,0.8155999999999999,0.10992724866929035,100,11
+sans_demographie,cognition + genetique + lcr,logreg,AUPRC,0.7821802694037987,0.11926767868019064,100,11
+sans_demographie,cognition + genetique + lcr,logreg,Sensibilite,0.8,0.15811388300841897,100,11
+sans_demographie,cognition + genetique + lcr,logreg,Specificite,0.748,0.14177446878757827,100,11
+sans_demographie,cognition + genetique + lcr,logreg,F1,0.7746794080569823,0.11163069690121002,100,11
+sans_demographie,cognition + genetique + lcr,random_forest,AUROC,0.8708,0.07348015605136761,100,11
+sans_demographie,cognition + genetique + lcr,random_forest,AUPRC,0.8646795670789477,0.08378123080105221,100,11
+sans_demographie,cognition + genetique + lcr,random_forest,Sensibilite,0.848,0.10456258094238749,100,11
+sans_demographie,cognition + genetique + lcr,random_forest,Specificite,0.7879999999999999,0.12355835328567094,100,11
+sans_demographie,cognition + genetique + lcr,random_forest,F1,0.8229418209555509,0.07636462941588439,100,11
+sans_genetique,cognition + demographie + lcr,logreg,AUROC,0.8056,0.09962764007375999,100,12
+sans_genetique,cognition + demographie + lcr,logreg,AUPRC,0.7741846372581666,0.11278106923695642,100,12
+sans_genetique,cognition + demographie + lcr,logreg,Sensibilite,0.78,0.1258305739211792,100,12
+sans_genetique,cognition + demographie + lcr,logreg,Specificite,0.748,0.12622730819174327,100,12
+sans_genetique,cognition + demographie + lcr,logreg,F1,0.7657622398241593,0.09741055542670332,100,12
+sans_genetique,cognition + demographie + lcr,random_forest,AUROC,0.8543999999999999,0.07724851670636361,100,12
+sans_genetique,cognition + demographie + lcr,random_forest,AUPRC,0.8364720589008514,0.10506662067449438,100,12
+sans_genetique,cognition + demographie + lcr,random_forest,Sensibilite,0.8320000000000001,0.11075498483890768,100,12
+sans_genetique,cognition + demographie + lcr,random_forest,Specificite,0.784,0.12476644848141936,100,12
+sans_genetique,cognition + demographie + lcr,random_forest,F1,0.8118059773940781,0.07985212313809964,100,12
+sans_lcr,cognition + demographie + genetique,logreg,AUROC,0.816,0.08727351641057365,100,9
+sans_lcr,cognition + demographie + genetique,logreg,AUPRC,0.8096987364716466,0.10387003202780117,100,9
+sans_lcr,cognition + demographie + genetique,logreg,Sensibilite,0.7120000000000001,0.11298967504452197,100,9
+sans_lcr,cognition + demographie + genetique,logreg,Specificite,0.784,0.13127579111676813,100,9
+sans_lcr,cognition + demographie + genetique,logreg,F1,0.7370122364735368,0.07660643742589293,100,9
+sans_lcr,cognition + demographie + genetique,random_forest,AUROC,0.8216,0.08933457710576946,100,9
+sans_lcr,cognition + demographie + genetique,random_forest,AUPRC,0.8119174886345166,0.10238292833974745,100,9
+sans_lcr,cognition + demographie + genetique,random_forest,Sensibilite,0.7760000000000001,0.1392838827718412,100,9
+sans_lcr,cognition + demographie + genetique,random_forest,Specificite,0.768,0.13140268896284685,100,9
+sans_lcr,cognition + demographie + genetique,random_forest,F1,0.7700260276359348,0.09311208184651741,100,9

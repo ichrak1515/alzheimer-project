@@ -1,0 +1,11 @@
+combination,n,n_pos,n_features,model,metric,mean,std
+demographics+genetic,100,50,5,logreg,AUROC,0.7512000000000001,0.08457343948703203
+demographics+genetic,100,50,5,logreg,AUPRC,0.7956332053567347,0.07026635097363083
+demographics+genetic,100,50,5,logreg,Sensibilite,0.7,0.14142135623730953
+demographics+genetic,100,50,5,logreg,Specificite,0.7160000000000001,0.15726834816113935
+demographics+genetic,100,50,5,logreg,F1,0.7015743848111328,0.0835151300610408
+demographics+genetic,100,50,5,random_forest,AUROC,0.6848000000000001,0.1170868623430201
+demographics+genetic,100,50,5,random_forest,AUPRC,0.7537696533428732,0.0890426556499025
+demographics+genetic,100,50,5,random_forest,Sensibilite,0.6080000000000001,0.17301252363147973
+demographics+genetic,100,50,5,random_forest,Specificite,0.672,0.1369914839202301
+demographics+genetic,100,50,5,random_forest,F1,0.6192373377060414,0.13361185787807858
