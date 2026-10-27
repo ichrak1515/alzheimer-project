@@ -1,0 +1,48 @@
+
+# Environnements Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# Données ADNI brutes (grandes tables et manifestes)
+Tables_27Oct2026/
+*_Manifest_*.csv
+100-ID_Clinical_Cohort_Manifest_*.csv
+
+# Sorties générées (outputs/)
+outputs/ADNI_MCI_AD_24M_cohort*.csv
+outputs/ADNI_MCI_AD_24M_quality_check.csv
+outputs/ADNI_MCI_AD_24M_T24_visits.csv
+outputs/ADNI_MRI_T1_candidates_near_baseline.csv
+outputs/ADNI_PTID_list.txt
+outputs/ADNI_T1_baseline_image_ids.txt
+outputs/ADNI_T1_baseline*.csv
+outputs/patients_stable_MCI_a_verifier.csv
+outputs/MCI_T24_followup_analysis.csv
+
+# Fichiers de données volumineux
+data/
+*.zip
+*.nii
+*.nii.gz
+*.dcm
+*.h5
+*.hdf5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
