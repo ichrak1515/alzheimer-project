@@ -1,0 +1,11 @@
+modality,n,n_pos,model,metric,mean,std
+04_biomarqueurs_lcr,100,50,logreg,AUROC,0.7759999999999998,0.10078855755160568
+04_biomarqueurs_lcr,100,50,logreg,AUPRC,0.7662071706071707,0.10013833735107854
+04_biomarqueurs_lcr,100,50,logreg,Sensibilite,0.824,0.13
+04_biomarqueurs_lcr,100,50,logreg,Specificite,0.652,0.13576941236277534
+04_biomarqueurs_lcr,100,50,logreg,F1,0.7572573245213978,0.09164685189802324
+04_biomarqueurs_lcr,100,50,random_forest,AUROC,0.7582000000000001,0.10079765208905742
+04_biomarqueurs_lcr,100,50,random_forest,AUPRC,0.7227420611208537,0.1169241849863724
+04_biomarqueurs_lcr,100,50,random_forest,Sensibilite,0.796,0.1206924466015445
+04_biomarqueurs_lcr,100,50,random_forest,Specificite,0.6559999999999999,0.14742229591663988
+04_biomarqueurs_lcr,100,50,random_forest,F1,0.7426056933150755,0.07220650399093224
